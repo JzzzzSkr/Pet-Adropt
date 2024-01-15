@@ -1,1 +1,46 @@
 /* nav and copy right */
+
+/* title area css style */
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e47c30;
+  height: 120px;
+}
+
+.nav .logo {
+  flex: 1;
+  /* background-color: aliceblue; */
+  padding-left: 5%;
+}
+
+.nav .nav-bar {
+  flex: 1;
+  /* background-color: aqua; */
+}
+
+.nav .nav-bar ul {
+  display: flex;
+}
+
+.nav .nav-bar ul li a {
+  display: block;
+  height: 100%;
+  width: 154px;
+  /* background-color: antiquewhite; */
+  text-align: center;
+  /* border-right: 1px solid #fff; */
+  font-size: 18px;
+  line-height: 120px;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav .nav-bar ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+
