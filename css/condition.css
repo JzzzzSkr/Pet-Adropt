@@ -1,0 +1,12 @@
+.content-box {
+padding-bottom: 50px;
+  border-bottom: 1px dashed rgb(199, 196, 196);
+}
+
+.content-box p {
+  margin: 0 50px;
+}
+
+.content-box p strong {
+  font-size: 18px;
+}
