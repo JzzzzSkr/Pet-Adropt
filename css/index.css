@@ -1,0 +1,144 @@
+.sub-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+  display: block;
+  line-height: 1.5;
+  font-family: "Noto Sans KR", sans-serif;
+  font-style: normal;
+}
+
+.content .pet-info {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.content .pet-info .left {
+  flex: 2;
+  /* background-color: aliceblue; */
+}
+
+.content .pet-info .right {
+  flex: 4;
+  /* background-color: orangered; */
+  padding-left: 30px;
+}
+
+.content .pet-info .right p {
+  color: gray;
+}
+
+.content .adrop-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.content .adrop-info .box {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  background-color: aqua;
+  width: 450px;
+}
+
+.adrop-box {
+  width: 1200px;
+  background-color: antiquewhite;
+  border-radius: 5%;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.adrop-box .adrop-info {
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
+  background-color: antiquewhite;
+}
+
+.adrop-box .adrop-info .adrop-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: auto;
+  /* background-color: aqua; */
+}
+
+.adrop-box .adrop-info .adrop-list li {
+  display: flex;
+  /* background-color: red; */
+  /* flex: 1; */
+  width: 300px;
+  height: 130px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.adrop-box .adrop-info .adrop-list li .left {
+  width: 180px;
+  height: 160px;
+}
+
+.adrop-box .adrop-info .adrop-list li .right {
+  margin-left: 10px;
+}
+
+.adrop-box .adrop-info .adrop-list li .right h3 {
+  color: #f37603;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.adrop-box .adrop-info .adrop-list li .right p {
+  margin-bottom: 10px;
+}
+
+.duty {
+  display: flex;
+  width: 100%;
+  /* height: 100px; */
+  justify-content: space-around;
+  align-items: center;
+  vertical-align: middle;
+  /* background-color: aqua; */
+  margin-top: 50px;
+}
+
+.duty li {
+  /* width: 180px; */
+  flex: 1;
+  /* background-color: aliceblue; */
+  text-align: center;
+}
+
+.duty li h5 {
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.duty li p {
+  width: 300px;
+  margin: 0 auto;
+  font-size: 15px;
+  color: #666;
+  padding-top: 14px;
+  line-height: 26px;
+  text-align: center;
+}

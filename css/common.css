@@ -2,22 +2,25 @@
 
 /* title area css style */
 .nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #e47c30;
-  height: 120px;
+  height: auto;
+  z-index: 100;
 }
 
 .nav .logo {
   flex: 1;
-  /* background-color: aliceblue; */
   padding-left: 5%;
 }
 
 .nav .nav-bar {
   flex: 1;
-  /* background-color: aqua; */
 }
 
 .nav .nav-bar ul {
@@ -28,9 +31,9 @@
   display: block;
   height: 100%;
   width: 154px;
-  /* background-color: antiquewhite; */
+
   text-align: center;
-  /* border-right: 1px solid #fff; */
+
   font-size: 18px;
   line-height: 120px;
   color: #ffffff;
@@ -38,9 +41,23 @@
 }
 
 .nav .nav-bar ul li a:hover {
+  font-size: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   background-color: rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
 }
 
+/* carousel */
 
+/* contact */
+.contact {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background-color: #e47c30;
+}
