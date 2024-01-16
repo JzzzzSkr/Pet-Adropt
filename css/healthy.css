@@ -1,0 +1,27 @@
+.content-box {
+  height: auto;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.content-box div {
+  width: 300px;
+  height: 500px;
+  /* background-color: #f1f1f1; */
+  margin: 10px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.content-box div h4 {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.content-box div P{
+    text-align: left;
+    color: gray;
+}
