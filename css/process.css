@@ -1,0 +1,17 @@
+.content-box{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.content-box .imgs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+    margin: 50px auto;
+}
+
+.content-box p{
+    padding: 30 auto;
+}

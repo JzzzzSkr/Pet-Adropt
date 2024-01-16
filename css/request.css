@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  justify-content: center;
+}
+
+.submit-btn {
+  padding: 10px 60px;
+  margin: 50px 20px;
+  float: right;
+  background: #dd662b;
+  border: none;
+  color: #fff;
+}
+
+.submit-btn:hover {
+    background-color: #dd662b;
+}
+
+.sub-title{
+    padding-top: 50px;
+}
